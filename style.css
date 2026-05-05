@@ -65,7 +65,7 @@ a:hover { opacity: .55; }
 /* ── Tags ─────────────────────────────────────────────────────────────────── */
 .tag-row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 0;
 }
