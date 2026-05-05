@@ -61,6 +61,37 @@ a:hover { opacity: .55; }
   color: var(--text);
 }
 
+/* ── Tags ─────────────────────────────────────────────────────────────────── */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+
+.tag {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  letter-spacing: .01em;
+}
+
+.tag--auth {
+  color: var(--text);
+  border-color: #b8d8b0;
+  background: #f2f8f1;
+}
+
+.tag-dot {
+  color: #5a9e50;
+  font-size: 9px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
 /* ── Prose sections ───────────────────────────────────────────────────────── */
 .prose-section {
   margin-bottom: 56px;
